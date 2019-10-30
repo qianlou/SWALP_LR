@@ -1,1 +1,0 @@
-python train.py --dataset CIFAR10 --data_path . --dir block_LogisticLP/CIFAR10_LogisticLP --log_name block-CIFAR10-LogisticLP --model LogisticLP --epochs=50 --lr_init=0.05 --swa_start 40 --swa_lr 0.01 --wd=5e-4 --seed 100 --save_freq 50 --wl-weight 8 --wl-acc 8 --wl-grad 8 --wl-activate 8 --wl-error 8 --quant-type stochastic --small-block FC --block-dim B
